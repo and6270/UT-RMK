@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57cf2d1f-528f-468d-b974-0fbe1dcfd403">
+  <producedTypes>
+    <objectType typeId="a316c406-2bfa-4388-9ac7-e254d0548707" valueTypeId="92145fc4-91af-466c-b802-91ebd9e7fb47"/>
+    <managerType typeId="6a5a22b4-bb5d-4b72-8981-63e86c721fc3" valueTypeId="79c4608b-4e4a-464d-b98b-017766de070c"/>
+  </producedTypes>
+  <name>Расш66_ИзменениеКассыККМНаРабочихМестах</name>
+  <synonym>
+    <key>ru</key>
+    <value>++Изменение кассы ККМ на рабочих местах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Расш66_ИзменениеКассыККМНаРабочихМестах.Form.Форма</defaultForm>
+  <forms uuid="92b3db0c-7f6f-4b1a-b54c-460ef11af729">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

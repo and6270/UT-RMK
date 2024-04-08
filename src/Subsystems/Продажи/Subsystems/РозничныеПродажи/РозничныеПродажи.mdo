@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5d923585-e372-434a-a0ff-9c5cd13bd19d" extendedConfigurationObject="58f207c9-2d31-410c-8d16-aa9f8b4c1966">
+  <name>РозничныеПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>DataProcessor.Расш66_ИзменениеКассыККМНаРабочихМестах</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

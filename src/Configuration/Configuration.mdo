@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7f2e4838-7f5c-4410-8d3d-89e615643d73">
+  <name>РМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="36b6b245-ef1e-4d75-9d2f-843f9dfc0069"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f898f26e-57f4-40be-afe3-7198b4c02d4d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6b3252a5-4f04-4220-ba96-c2200974978d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bb975ae7-d1be-45ee-8c6f-6e2199fe384e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2eb85d83-685c-451d-ae73-327de5aad60a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8ed81830-b06c-4b25-b2fe-3ca9aa636f4f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b6376e4f-dd2e-4956-be00-ce5c52c59b86"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш66_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Расш66_ОсновнаяРоль</defaultRoles>
+  <vendor>and6270@gmail.com</vendor>
+  <version>2024.04.04</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="6b3a7e56-a093-4760-9235-13ce42e41c51" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <styleItems>StyleItem.ИндивидуальнаяЦена</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <commonPictures>CommonPicture.РМК_Цифра1</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра2</commonPictures>
+  <commonPictures>CommonPicture.РМК_ТочкаКалькулятора</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра7</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра8</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра4</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра5</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра0</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра9</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра6</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра3</commonPictures>
+  <commonPictures>CommonPicture.РМК_Стереть</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <roles>Role.Расш66_ОсновнаяРоль</roles>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.НастройкиРМК</catalogs>
+  <documents>Document.ЧекККМ</documents>
+  <documents>Document.ЧекККМВозврат</documents>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыКассККМ</enums>
+  <dataProcessors>DataProcessor.Расш66_ИзменениеКассыККМНаРабочихМестах</dataProcessors>
+</mdclass:Configuration>
